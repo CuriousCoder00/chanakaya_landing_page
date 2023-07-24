@@ -67,7 +67,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="dashboard" target="_blank">
+                <Link className="nav-link" to="dashboard">
                 <i class="bi bi-columns-gap"></i> DASHBOARD
                 </Link>
               </li>
