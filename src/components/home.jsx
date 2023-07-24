@@ -33,7 +33,7 @@ const Header = () => {
         <div className="col-md-6 my-auto">
           <p className="h1">
             Welcome to
-            <div className="text-primary">Chankya Coaching Classes</div>
+            <span className="text-primary"> Chankya Coaching Classes</span>
           </p>
           <p className="h3">We are happy to help you!</p>
           <p className="h5">
@@ -48,13 +48,13 @@ const Header = () => {
           <span className="h4 text-secondary" id="element"></span>
         </div>
       </div>
-      <hr />
-      
-      <div className="row my-5">
-        <h1 className="text-center mb-4">OUR SPECIALITIES</h1>
+      <hr className="text-secondary" />
+
+      <div className="text-center my-3 row">
+        <h1 className="text-center my-4">OUR SPECIALITIES</h1>
         <div className="col-md-3">
-          <div className="card mb-3">
-            <img src={CARD1} className="card-img-top" alt="..." />
+          <div className="card mb-3" style={{ minWidth: '12rem' }}>
+            <img src={CARD1} className="card-img-top mx-auto" alt="..." style={{ width: '10rem' }} />
             <div className="card-body">
               <p className="card-text text-center">
                 Recognised by Rajasthan Govt and RKCL
@@ -62,9 +62,9 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-3">
-          <div className="card mb-3">
-            <img src={CARD2} className="card-img-top" alt="..." />
+        <div className="col-md-3 text-center">
+          <div className="card mb-3" style={{ minWidth: '12rem' }}>
+            <img src={CARD2} className="card-img-top mx-auto" alt="..." style={{ width: '10rem' }} />
             <div className="card-body">
               <p className="card-text text-center">
                 Planned Execution of Education
@@ -73,8 +73,8 @@ const Header = () => {
           </div>
         </div>
         <div className="col-md-3">
-          <div className="card mb-3">
-          <i className="bi bi-buildings-fill text-center" style={{fontSize:'12rem'}}></i>
+          <div className="card mb-3" style={{ minWidth: '12rem' }}>
+            <i className="bi bi-buildings-fill text-center text-primary" style={{ fontSize: '7rem' }}></i>
             <div className="card-body">
               <p className="card-text text-center">
                 Good Infrastructure
@@ -83,8 +83,8 @@ const Header = () => {
           </div>
         </div>
         <div className="col-md-3">
-          <div className="card mb-3">
-          <i className="bi bi-pc-display text-center" style={{fontSize:'12rem'}}></i>
+          <div className="card mb-3" style={{ minWidth: '12rem' }}>
+            <i className="bi bi-pc-display text-center text-warning" style={{ fontSize: '7rem' }}></i>
             <div className="card-body">
               <p className="card-text text-center">
                 Well Equipped Labs
@@ -94,7 +94,7 @@ const Header = () => {
         </div>
       </div>
       <h3 className="text-center">ABOUT US</h3>
-      <p className="text-center">
+      <div className="text-center">
         <span className="text-primary">Chankya Coaching Classes</span> is a
         leading coaching institute in{" "}
         <span className="text-primary">Bundi</span> for
@@ -110,16 +110,16 @@ const Header = () => {
         provide the best coaching to the students. We have a good infrastructure
         and a good environment for the students. We also provide the best
         facilities to the students like
-        <span className="text-primary">Free Study Material</span>
-        <span className="text-primary">Free Online Test Series</span>
-      </p>
+        <span className="text-primary"> Free Study Material, </span> 
+        <span className="text-primary">Free Online Test Series.</span> 
+      </div>
       <br />
       <p className="text-center">
         We started our journey in 2012 and ever since, we have ensured that the
         customer remains at the center of our business operations and
         philosophy. We are located in a favourable neighbourhood, exactly at{" "}
         <br />
-        <span className="text-danger">
+        <span className="text-success">
           Chankaya Coaching Classes - Bundi, College Road, in Front of Police
           Kotwali, New Colony - 323001
         </span>
