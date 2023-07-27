@@ -28,7 +28,7 @@ const Navbar = () => {
         </button>
 
         <div
-          className="offcanvas offcanvas-end"
+          className="offcanvas w-75 offcanvas-end"
           tabIndex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
@@ -46,29 +46,35 @@ const Navbar = () => {
           </div>
           <div className="offcanvas-body mx-4">
             <ul className="navbar-nav justify-content-end  flex-grow-1 pe-4">
-              <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/">
+              <li className="nav-item" data-bs-dismiss="offcanvas"
+              aria-label="Close">
+                <Link className="nav-link" aria-current="page" data-bs-dismiss="offcanvas"
+              aria-label="Close" to="/">
                   <i className="bi bi-house"></i> HOME
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" data-bs-dismiss="offcanvas"
+              aria-label="Close">
                 <Link className="nav-link" to="courses">
                   <i className="bi bi-collection"></i> COURSES
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" data-bs-dismiss="offcanvas"
+              aria-label="Close">
                 <Link className="nav-link" to="gallery">
                   <i className="bi bi-image"></i> GALLERY
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" data-bs-dismiss="offcanvas"
+              aria-label="Close">
                 <Link className="nav-link" to="contact">
                   <i className="bi bi-telephone"></i> CONTACT
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" data-bs-dismiss="offcanvas"
+              aria-label="Close">
                 <Link className="nav-link" to="dashboard">
-                <i class="bi bi-columns-gap"></i> DASHBOARD
+                <i className="bi bi-columns-gap"></i> DASHBOARD
                 </Link>
               </li>
 {/* 

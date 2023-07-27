@@ -14,7 +14,7 @@ const ContactTeacherBTN = () => {
       <div
         className="modal fade"
         id="contactTeacherModal"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="contactTeacherModalLabel"
         aria-hidden="true"
       >
